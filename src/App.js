@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/navigation/Header";
 import Footer from "./components/navigation/Footer";
 import Spinner from "react-bootstrap/Spinner";
+import WhatWeDo from "./components/what-we-do/what-we-do";
 const Home = lazy(() => import("./components/Index"));
 
 
@@ -14,6 +15,7 @@ function App() {
     <shareContext.Provider>
       <Router>
         <Header />
+        <WhatWeDo />
         <Suspense
           fallback={
             <div className="d-flex justify-content-center">
