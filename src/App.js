@@ -1,7 +1,7 @@
 import React, { createContext, lazy, Suspense } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./components/navigation/Header";
+import Header from "./components/navigation/header";
 import Footer from "./components/navigation/Footer";
 import Spinner from "react-bootstrap/Spinner";
 const Home = lazy(() => import("./components/Index"));

@@ -1,0 +1,35 @@
+header {
+    position: relative;
+    width: 100;
+    min-height: 100vh;
+}
+
+/* Header's navigation */
+#navbarNav{
+    justify-content: flex-end;
+}
+#navbarNav a{
+    font-weight: 500;
+    color: #ffff;
+    text-transform: uppercase;
+}
+#navbarNav a:hover {
+     color: #0b0127;
+     font-weight: 600;
+   }
+
+/* Header Background */
+.header-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.header-bg img { 
+    width: 100%;
+    min-height: 100vh;
+}
+
