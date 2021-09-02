@@ -10,7 +10,8 @@ export default function Footer() {
                         <Col md="3" lg="3" xl="3" className="mx-auto mt-3">
                             <h6 className="text-uppercase mb-4 font-weight-bold">BTR Chain</h6>
                             <p className='font-weight-bolder'>
-                                BTRChain is rated as one of the top web agencies in India by various industry magazines and review sites. We have a right blend of award-winning designers, expert web developers and Google certified digital marketers which make us a unique one-stop solution for hundreds of our clients, spread across 80+ countries.
+                                BTRChain is rated as one of the top web agencies in India by various industry magazines and review sites. 
+                                We have a right blend of award-winning designers, expert web developers and Google certified digital marketers which make us a unique one-stop solution for hundreds of our clients, spread across 80+ countries.
                             </p>
                         </Col>
                         <hr className="w-100 clearfix d-md-none" />
@@ -20,7 +21,7 @@ export default function Footer() {
                             </h6>
                             <p>
                                 <a
-                                    className="ext2 h6"
+                                    className="ext2 h6 text-left"
                                     href="/"
                                 >
                                     Web Development
@@ -40,7 +41,6 @@ export default function Footer() {
                                     href="/"
                                 >
                                     Mobile Apps
-
                                 </a>
                             </p>
                             <p>
@@ -54,58 +54,65 @@ export default function Footer() {
                         </Col>
                         <hr className="w-100 clearfix d-md-none" />
                         <Col md="3" lg="2" xl="2" className="mx-auto mt-3">
-                            <h6 className="text-uppercase mb-4 font-weight-bold">More</h6>
+                            <h6 className="text-uppercase mb-4 font-weight-bold">Resources</h6>
                             <p>
                                 <a
-                                    className="ext2 h6" rel="noopener noreferrer" href="/">
-                                    Career
+                                    className="ext2 h6"
+                                    href="/">
+                                    Blog
                                 </a>
                             </p>
                             <p>
                                 <a
-                                    className="ext2 h6" rel="noopener noreferrer" href="/">
-                                    Refund policy
+                                    className="ext2 h6"
+                                    href="/">
+                                    Case Studies
+                                </a>
+                            </p>
+                        </Col>
+                        <hr className="w-100 clearfix d-md-none" />
+                        <Col md="4" lg="3" xl="3" className="mx-auto mt-3">
+                        <h6 className="text-uppercase mb-4 font-weight-bold">Capabilities</h6>
+                            <p>
+                                <a
+                                    className="ext2 h6"
+                                    href="/">
+                                    Front-end Engineering
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    className="ext2 h6"
+                                    href="/">
+                                    Cloud and DevOps
                                 </a>
                             </p>
                             <p>
                                 <a
                                     className="ext2 h6"
                                     href="http://mail.btrchain.com/"
-
                                 >
-                                    Webmail
+                                    Web Framework
                                 </a>
                             </p>
                             <p>
                                 <a
-                                    className="ext2 h6" rel="noopener noreferrer" href="/" >
-                                    Sitemap
+                                    className="ext2 h6" href="/" >
+                                    Database
                                 </a>
                             </p>
-                        </Col>
-                        <hr className="w-100 clearfix d-md-none" />
-                        <Col md="4" lg="3" xl="3" className="mx-auto mt-3">
-                            <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
                             <p>
-                                <i className="fa fa-home mr-3" />
-                                NA, 000, University Road, Gautam Buddha University, Greater Noida, IN
-                                201312
-                            </p>
-                            <p>
-                                <i className="fa fa-envelope mr-3" /> info@btrchain.com
-                            </p>
-                            <p>
-                                <i className="fa fa-phone mr-3" />+ 91 0000 000000
-                            </p>
-                            <p>
-                                <i className="fa fa-phone mr-3" /> + 91 0000 000000
+                                <a
+                                    className="ext2 h6" href="/" >
+                                    Machine Learning
+                                </a>
                             </p>
                         </Col>
                     </Row>
                     <hr />
                     <Row className="d-flex align-items-center">
                         <Col md="8" lg="8">
-                            <p className="text-center text-md-left grey-text">
+                            <p >
                                 &copy; {new Date().getFullYear()} Copyright:{" "}
                                 <a
                                     className="ext2 h6 text-center" rel="noopener noreferrer" href="https://www.btrchain.com">
