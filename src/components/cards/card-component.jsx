@@ -7,7 +7,6 @@ const Card = ({ title, src }) => {
             <img className="card-img-top" src={src} alt="what we do" />
             <div className="card-body text-center">
                 <h3 className="card-title py-5">{title}</h3>
-
             </div>
         </div>
     )

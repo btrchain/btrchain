@@ -1,0 +1,8 @@
+.talk-bg{
+    background:linear-gradient( rgba(13, 89, 201, 74%) 100%, rgba(0, 0, 0, 0.5)100%),url("./contact-bg.svg");
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.talkColor{
+    color: blue;
+}
