@@ -19,10 +19,10 @@ export default function Header() {
                                 <a className="nav-link" href="/">OUR SERVICES</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">ABOUT US</a>
+                                <a className="nav-link" href="/about">ABOUT US</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">CONTACT US</a>
+                                <a className="nav-link" href="/contact">CONTACT US</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="/">BLOG</a>

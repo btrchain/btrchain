@@ -5,6 +5,8 @@ import Header from "./components/navigation/Header";
 import Footer from "./components/navigation/Footer";
 import Spinner from "react-bootstrap/Spinner";
 const Home = lazy(() => import("./components/Index"));
+const About = lazy(() => import("./components/about/About"));
+const Contact = lazy(() => import("./components/contact/Contact"));
 
 export const shareContext = createContext();
 
@@ -26,9 +28,9 @@ function App() {
         >
           <Switch>
             <Route exact path="/" component={Home} />
-            {/* <Route exact path="/about" component={About} />
+            <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/sitemap" component={Sitemap} />
+            {/* <Route exact path="/sitemap" component={Sitemap} />
             <Route component={Error404} /> */}
           </Switch>
         </Suspense>
