@@ -1,12 +1,11 @@
 .card-container {
-    padding: 6em 0em;
     background-color: #010936;
     width: 100%;
     background-size: cover;
 
 }
-.card-container h1 {
+/* .card-container h1 {
     color: #ffff;
     font-weight: 700;
     font-size: 5em;
-}
+} */

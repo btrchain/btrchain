@@ -1,5 +1,5 @@
 .talk-bg{
-    background:linear-gradient( rgba(13, 89, 201, 74%) 100%, rgba(0, 0, 0, 0.5)100%),url("./contact-bg.svg");
+    background:linear-gradient( rgba(13, 89, 201, 74%) 100%, rgba(0, 0, 0, 0.5)100%),url("./images/contact-bg.svg");
     background-repeat: no-repeat;
     height: 100%;
 }

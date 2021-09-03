@@ -1,16 +1,17 @@
 import React from 'react'
 import Card from '../cards/card-component'
-import backendImg from './backend.svg'
-import frontendImg from './frontend.svg'
-import devOpsImg from './devops.svg'
+import backendImg from './images/backend.svg'
+import frontendImg from './images/frontend.svg'
+import devOpsImg from './images/devops.svg'
 import './WhatWeDo.css'
+import { Container } from 'react-bootstrap'
 
 export default function WhatWeDo() {
     return (
         <div>
             <div className="card-container"  >
-                <div className='container'>
-                    <h1 className='font-weight-bold text-white '>What we do?</h1>
+                <Container>
+                    <p className='h3 font-weight-bold text-white text-center pt-5'>What we do?</p>
                     <div className="row">
                         <div className="col-md-4 ">
                             <Card title="Frontend Devlopment" src={frontendImg} />
@@ -22,7 +23,7 @@ export default function WhatWeDo() {
                             <Card title="Mobile App Devlopment" src={devOpsImg} />
                         </div>
                     </div>
-                </div>
+                </Container>
             </div>
         </div>
     )
