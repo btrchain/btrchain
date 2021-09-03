@@ -1,0 +1,18 @@
+.card {
+    max-width: 15rem;
+}
+.what-we-do-card{
+    overflow: hidden;
+    margin: 2em auto;
+    border-radius:25px!important ;
+    font-weight: 400;    
+    border: none!important;
+}
+.what-we-do-card h3{
+    overflow: hidden;
+    border-radius:25px!important ;
+    font-weight: 350;    
+}
+.card .card-body {
+    /* padding: 2em auto; */
+}

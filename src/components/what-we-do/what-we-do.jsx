@@ -5,18 +5,18 @@ import './what-we-do.style.css'
 
 const WhatWeDo = () => {
     return (
-        <div className="card-container" >
+        <div className="card-container"  >
             <div className='container'>
-                <h1 classNam='font-weight-bold text-white mb-3'>What we do?</h1>
+                <h1 classNam='font-weight-bold text-white '>What we do?</h1>
                 <div className="row">
-                    <div className="col-4">
-                        <Card />
+                    <div className="col-md-4 ">
+                        <Card title="Frontend Devlopment" />
                     </div>
-                    <div className="col-4">
-                        <Card />
+                    <div className="col-md-4">
+                        <Card title="Backend Devlopment" />
                     </div>
-                    <div className="col-4">
-                        <Card />
+                    <div className="col-md-4">
+                        <Card title="Mobile App Devlopment" />
 
                     </div>
                 </div>

@@ -1,11 +1,13 @@
 .card-container {
     padding: 6em 0em;
-    background-color: #08133b;
+    background-color: #222222;
     width: 100%;
+    background-size: cover;
+
 }
 .card-container h1 {
     color: #ffff;
     font-weight: 700;
     font-size: 5em;
-
+    margin-bottom: 1em;
 }
