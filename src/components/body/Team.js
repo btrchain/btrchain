@@ -18,8 +18,8 @@ export default function Team() {
 					<div className="user-pic">
 						<img src="https://www.markuptag.com/images/user-img-1.jpg" className="img-fluid" alt="User Pic"></img>
 					</div>
-					<h4>Rajnish Kumar</h4>
-					<h6>Web Designer</h6>
+					<h4>Krishna Nishad</h4>
+					<h6>Backend Developer</h6>
 					<hr></hr>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 					<hr></hr>
@@ -32,8 +32,8 @@ export default function Team() {
 					<div className="user-pic">
 						<img src="https://www.markuptag.com/images/user-img-2.jpg" className="img-fluid" alt="User Pic"></img>
 					</div>
-					<h4>Satyam Tiwari</h4>
-					<h6>Web Developer</h6>
+					<h4>Mukul Jaweriya</h4>
+					<h6>DevOps Engineer</h6>
 					<hr></hr>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 					<hr></hr>
@@ -46,7 +46,7 @@ export default function Team() {
 					<div className="user-pic">
 						<img src="https://www.markuptag.com/images/user-img-3.jpg" className="img-fluid" alt="User Pic"></img>
 					</div>
-					<h4>Salim Malik</h4>
+					<h4>Mukul Rai</h4>
 					<h6>Front End Developer</h6>
 					<hr></hr>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
