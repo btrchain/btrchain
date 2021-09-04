@@ -3,7 +3,8 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/navigation/Header";
 import Footer from "./components/navigation/Footer";
-import Spinner from "react-bootstrap/Spinner";
+import Spinner from "./components/body/Spinner";
+import Error404 from "./components/error/error404";
 const Home = lazy(() => import("./components/Index"));
 const About = lazy(() => import("./components/about/About"));
 const Contact = lazy(() => import("./components/contact/Contact"));
@@ -18,12 +19,8 @@ function App() {
         <Header />
         <Suspense
           fallback={
-            <div className="d-flex justify-content-center pt-5 pb-5">
-              <Spinner
-                style={{ height: "200px", width: "200px" }}
-                animation="border"
-                variant="success"
-              />
+            <div>
+              <Spinner />
             </div>
           }
         >
@@ -32,11 +29,12 @@ function App() {
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/team" component={Team} />
-            {/* <Route exact path="/sitemap" component={Sitemap} />
-            <Route component={Error404} /> */}
+            {/* <Route exact path="/sitemap" component={Sitemap} /> */}
+            <Route component={Error404} />
           </Switch>
         </Suspense>
         <Footer />
+        
       </Router>
     </shareContext.Provider>
   );

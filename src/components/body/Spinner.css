@@ -1,0 +1,36 @@
+.middle {
+    position: absolute;
+    bottom: 50%;
+    padding: 15px;
+    left: 40%;
+}
+.bar {
+    width: 40px;
+    border-radius: 4px;
+    height: 40px;
+    margin: 10px;
+    background: #9C27B0;
+    display: inline-block;
+    animation: loading 2s ease-in-out infinite;
+}
+
+/*--Animation CSS For Loader--*/
+@keyframes loading {
+    0% {
+        width: 5px;
+        background-color: #CDDC39;
+    }
+    25% {
+        width: 10px;
+        background-color: #8BC34A;
+    }
+    50% {
+        width: 15px;
+        background-color: #4CAF50;
+    }
+    100% {
+        width: 20px;
+        background-color: #009688;
+        transform: rotate(360deg);
+    }
+}

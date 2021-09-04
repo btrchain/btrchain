@@ -23,7 +23,7 @@ export default function Team() {
 					<hr></hr>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 					<hr></hr>
-					<a href="#" className="btn btn-primary">Know More</a>
+					<a href="/" className="btn btn-primary">Know More</a>
 				</div>
 			</div>
 
@@ -37,7 +37,7 @@ export default function Team() {
 					<hr></hr>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 					<hr></hr>
-					<a href="#" className="btn btn-primary">Know More</a>
+					<a href="/" className="btn btn-primary">Know More</a>
 				</div>
 			</div>
 
@@ -51,7 +51,7 @@ export default function Team() {
 					<hr></hr>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 					<hr></hr>
-					<a href="#" className="btn btn-primary">Know More</a>
+					<a href="/" className="btn btn-primary">Know More</a>
 				</div>
 			</div>
 		</div>
