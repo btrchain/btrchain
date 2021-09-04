@@ -8,7 +8,7 @@ export default function TalkToUs() {
         <div className='talk-bg'>
             <Container className='pt-5 p-5'>
                 <p className='h5 talkColor'><IoMdMegaphone/> Talk to us</p>
-                <p className='h3 pt-2 pb-2'>To schedule a discussion or demo with one of our consultants, please fill in your contact details</p>
+                <p className='h3 pt-2 pb-2 talkColor'>To schedule a discussion or demo with one of our consultants, please fill in your contact details</p>
                 <Form>
                     <Row>
                         <Col md='6'>

@@ -40,7 +40,7 @@ export default function WhatWeDo() {
                             <div className="card what-we-do-card" style={{ "background-image": "url('images/redline.svg')" }}>
                                 <img className="card-img-top" src={devOpsImg} alt="what we do" />
                                 <div className="card-body text-center">
-                                    <p className="h3 py-2">Mobile App Devlopment</p>
+                                    <p className="h3 py-2">DevOps Engineering</p>
                                 </div>
                             </div>
                         </div>
