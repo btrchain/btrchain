@@ -7,6 +7,7 @@ import Spinner from "react-bootstrap/Spinner";
 const Home = lazy(() => import("./components/Index"));
 const About = lazy(() => import("./components/about/About"));
 const Contact = lazy(() => import("./components/contact/Contact"));
+const Team = lazy(() => import("./components/body/Team"));
 
 export const shareContext = createContext();
 
@@ -30,6 +31,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/team" component={Team} />
             {/* <Route exact path="/sitemap" component={Sitemap} />
             <Route component={Error404} /> */}
           </Switch>

@@ -7,10 +7,10 @@ import TechExpertise from './body/TechExpertise'
 export default function Index() {
     return (
         <div>
-            <Banner/>
-            <WhatWeDo/>
-            <TechExpertise/>
-            <TalkToUs/>
+            <Banner />
+            <TechExpertise />
+            <WhatWeDo />
+            <TalkToUs />
         </div>
     )
 }
