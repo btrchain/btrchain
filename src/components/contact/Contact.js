@@ -22,7 +22,9 @@ export default function Contact() {
             </div>
             <Container className='pb-5 pt-3'>
                 <Row>
-                    <Col md='4'>
+                    <Col md='4' className="d-flex justify-content-center">
+                        <Card className='w-100'>
+                            <div className='m-auto justify-content-center'>
                         <p className='h3'>Our Address</p>
                         <p>01, University Road, <br></br>
                             Kasna, Gautam Buddha University,<br></br>
@@ -33,6 +35,8 @@ export default function Contact() {
                         <a href="mailto:contact@btrchain.com" className='text-decoration-none'><p><MdEmail /> contact@btrchain.com</p></a>
                         <p className='h5'>Quick Call</p>
                         <a href="tel:+91-9876543210" className='text-decoration-none'><p ><MdPhone /> +91-9876543210</p></a>
+                        </div>
+                        </Card>
                     </Col>
                     <Col md='8'>
                         <Card className='p-5 '>
