@@ -39,10 +39,10 @@ export default function Contact() {
                         </Card>
                     </Col>
                     <Col md='8'>
-                        <Card className='p-5 '>
+                        <Card className='p-5 w-100'>
                             <Form>
                                 <Row>
-                                    <Col>
+                                    <Col md='6'>
                                         <Form.Group className="mb-3 h6" controlId="formBasicName">
                                             <Form.Label>
                                                 Full Name
@@ -54,7 +54,7 @@ export default function Contact() {
                                             />
                                         </Form.Group>
                                     </Col>
-                                    <Col>
+                                    <Col md='6'>
                                         <Form.Group className="h6" controlId="formBasicEmail">
                                             <Form.Label>Email</Form.Label>
                                             <Form.Control type="email" placeholder="Enter email" />
@@ -62,13 +62,13 @@ export default function Contact() {
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col>
+                                    <Col md='6'>
                                         <Form.Group className="mb-3 pt-2 h6" controlId="formBasicMobile">
                                             <Form.Label>Contact Number</Form.Label>
                                             <Form.Control type="number" placeholder="Enter mobile number" />
                                         </Form.Group>
                                     </Col>
-                                    <Col>
+                                    <Col md='6'>
                                         <Form.Label className="mb-3 h6">
                                             Subject
                                         </Form.Label>
