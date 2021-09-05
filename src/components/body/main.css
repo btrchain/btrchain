@@ -3,8 +3,43 @@
 
 
 /*---------------------------------------------*/
+a {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
 
+a:focus {
+	outline: none !important;
+}
 
+a:hover {
+	text-decoration: none;
+}
+
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
 
 
 /*---------------------------------------------*/
@@ -83,6 +118,10 @@ iframe {
 
 
 /*---------------------------------------------*/
+.container {
+	max-width: 1200px;
+}
+
 
 
 
@@ -116,13 +155,12 @@ iframe {
 }
 
 .wrap-contact100 {
+  width: 1170px;
   background: #fff;
   border-radius: 10px;
   padding: 82px 180px 33px 180px;
   position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* display: none; */
+  display: none;
 }
 
 .show-wrap-contact100 {
@@ -450,4 +488,83 @@ textarea.input100 {
   color: #fff;
 }
 
+
+/*==================================================================
+[ Button show form ]*/
+
+.contact100-btn-show {
+  color: #fff;
+  font-size: 39px;
+
+  position: fixed;
+  z-index: -1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.contact100-btn-show::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background-color: #ff4b5a;
+  border-radius: 50%;
+
+  top: 0;
+  left: 0;
+  
+  box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+  -moz-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+  -o-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+  -ms-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  -webkit-animation: beatbtn 0.9s ease-in-out infinite;
+  animation: beatbtn 0.9s ease-in-out infinite;
+}
+
+
+@keyframes beatbtn {
+  0% {
+    background-color: rgba(255, 75, 90, 1);
+    transform-origin: center;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    background-color: rgba(255, 75, 90, 0.8);
+    transform-origin: center;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
 

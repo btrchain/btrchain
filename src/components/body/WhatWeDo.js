@@ -8,9 +8,9 @@ import { Container } from 'react-bootstrap'
 export default function WhatWeDo() {
     return (
         <div>
-            <div className="card-container"  >
+            <div className="card-container py-5">
                 <Container>
-                    <p className='h3 font-weight-bold text-white text-center pt-5'>What we do?</p>
+                    <p className='h2 font-weight-bold text-white text-center py-3'>What we do?</p>
                     <div className="row">
                         <div className="col-md-6 col-lg-3">
                             <div className="card what-we-do-card" style={{ "background-image": "url('images/redline.svg')" }}>

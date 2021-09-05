@@ -8,8 +8,8 @@ export default function Index() {
     return (
         <div>
             <Banner />
-            <TechExpertise />
             <WhatWeDo />
+            <TechExpertise />
             <TalkToUs />
         </div>
     )
