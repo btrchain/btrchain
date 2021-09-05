@@ -1,0 +1,35 @@
+.l-container{
+    background-position: -55%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-blend-mode:color;
+}
+.i-container{
+    padding: 5rem 0px;
+    max-width: 40rem;
+    margin: auto auto;
+    
+}
+.i-container h2{
+    font-size: 3rem;
+
+}
+.i-container p{
+    color: #686767;
+    font-size: 1.2rem;
+
+}
+.clientRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.clientRow img{
+    max-width: 10em;
+    max-height: 8em;
+    mix-blend-mode: luminosity;
+}
