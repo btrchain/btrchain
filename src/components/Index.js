@@ -3,6 +3,7 @@ import Banner from './body/Banner'
 import TalkToUs from './body/TalkToUs'
 import WhatWeDo from './body/WhatWeDo'
 import TechExpertise from './body/TechExpertise'
+import ContactUs from './contact/Contact'
 
 export default function Index() {
     return (
@@ -10,7 +11,7 @@ export default function Index() {
             <Banner />
             <WhatWeDo />
             <TechExpertise />
-            <TalkToUs />
+            <ContactUs />
         </div>
     )
 }

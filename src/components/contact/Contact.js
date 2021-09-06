@@ -11,14 +11,14 @@ export default function Contact() {
     return (
         <div>
             <div className='contactbg'>
-                <p className='h2 text-center pt-5'>Contact Us</p>
-                <div className='d-flex justify-content-center pe-auto'>
+                <p className='h2 text-center py-5'>Contact Us</p>
+                {/* <div className='d-flex justify-content-center pe-auto'>
 
                     <Breadcrumb >
                         <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
                         <Breadcrumb.Item active>Contact us</Breadcrumb.Item>
                     </Breadcrumb>
-                </div>
+                </div> */}
             </div>
             <Container className='pb-5 pt-3'>
                 <Row>
