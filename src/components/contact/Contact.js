@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Container, Row, Form, Button } from 'react-bootstrap'
-import Breadcrumb from 'react-bootstrap/Breadcrumb'
 import './Contact.css'
 import { FaLocationArrow } from "react-icons/fa";
 import { MdEmail, MdPhone } from "react-icons/md";
@@ -12,13 +11,6 @@ export default function Contact() {
         <div>
             <div className='contactbg'>
                 <p className='h2 text-center py-5'>Contact Us</p>
-                {/* <div className='d-flex justify-content-center pe-auto'>
-
-                    <Breadcrumb >
-                        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-                        <Breadcrumb.Item active>Contact us</Breadcrumb.Item>
-                    </Breadcrumb>
-                </div> */}
             </div>
             <Container className='pb-5 pt-3'>
                 <Row>
