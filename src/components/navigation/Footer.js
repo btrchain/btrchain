@@ -6,13 +6,12 @@ export default function Footer() {
     return (
         <div>
             <footer className="font-small pt-4 mt-0 page-footer">
-                <Container className="text-center text-md-left">
-                    <Row className="text-center text-md-left mt-3 pb-3">
+                <Container className="text-left text-md-left">
+                    <Row className="text-left text-md-left mt-3 pb-3">
                         <Col md="3" lg="3" xl="3" className="mx-auto mt-3">
                             <h6 className="text-uppercase mb-4 font-weight-bold">BTR Chain</h6>
                             <p className='font-weight-bolder'>
-                                BTRChain is rated as one of the top web agencies in India by various industry magazines and review sites.
-                                We have a right blend of award-winning designers, expert web developers and Google certified digital marketers which make us a unique one-stop solution for hundreds of our clients, spread across 80+ countries.
+                            BTRchain works with the latest technologies and providing the best solution for clients in the field of frontend backend mobile devleopment and devops.
                             </p>
                         </Col>
                         <hr className="w-100 clearfix d-md-none" />
