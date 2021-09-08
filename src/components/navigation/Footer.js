@@ -117,7 +117,7 @@ export default function Footer() {
                             btrchain.com
                         </a>
                     </p>
-                    <ul className="list-unstyled list-inline pb-5">
+                    <ul className="list-unstyled list-inline pb-5 text-center">
                         <li className="list-inline-item">
                             <a
 

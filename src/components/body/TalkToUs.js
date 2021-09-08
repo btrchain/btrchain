@@ -4,45 +4,65 @@ import './TalkToUs.css'
 export default function TalkToUs() {
     return (
         <div>
-            <div class="wrap-contact100" >
+            <section id="banner">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-md-8">
+                            <h2>What is Lorem Ipsum and why do we use it?</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div className="col-md-8">
+                            <ul className="nav nav-tabs" role="tablist">
+                                <li className="nav-item">
+                                    <a className="nav-link active" data-toggle="tab" href="/">Talk to us</a>
+                                </li>
+                            </ul>
 
-                <form class="contact100-form validate-form">
-                    <span class="contact100-form-title">
-                        Contact Us
-                    </span>
+                            <div className="tab-content">
+                                <div id="VisaInquiry" className="container tab-pane active">
+                                    <div className="get-quotes">
+                                        <form>
+                                            <div className="form-row row">
+                                                <div className="col-md-6 mb-3">
+                                                    <label>Your Name</label>
+                                                    <input type="type" className="form-control" placeholder="Name" value="" required />
+                                                </div>
+                                                <div className="col-md-6 mb-3">
+                                                    <label>Your Email Id</label>
+                                                    <input type="email" className="form-control" placeholder="Email Id" value="" required />
+                                                </div>
+                                            </div>
+                                            <div className="form-row row">
+                                                <div className="col-md-6 mb-3">
+                                                    <label>Mobile Number</label>
+                                                    <input type="number" className="form-control" placeholder="Mobile Number" required />
+                                                </div>
+                                                <div className="col-md-6 mb-3">
+                                                    <label>Choose  Enquiry Type</label>
+                                                    <select className="form-control">
+                                                        <option>Please Select</option>
+                                                        <option>Business</option>
+                                                        <option>Development</option>
+                                                        <option>Other</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div className="form-row row">
+                                            <div className="col pb-3">
+                                                <label for="exampleFormControlTextarea1">Your Question</label>
+                                                <textarea className="form-control p-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            </div>
+                                            </div>
+                                            <button className="btn btn-warning float-right" type="submit">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
 
-                    <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
-                        <span class="label-input100">Your Name</span>
-                        <input class="input100" type="text" name="name" placeholder="Enter your name" />
-                        <span class="focus-input100"></span>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                        <span class="label-input100">Email</span>
-                        <input class="input100" type="text" name="email" placeholder="Enter your email addess" />
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate="Message is required">
-                        <span class="label-input100">Message</span>
-                        <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="container-contact100-form-btn">
-                        <button class="contact100-form-btn">
-                            <span>
-                                Submit
-                                <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-                            </span>
-                        </button>
-                    </div>
-                </form>
-
-                <span class="contact100-more">
-                    For any question contact our 24/7 call center: <span class="contact100-more-highlight">+001 345 6889</span>
-                </span>
-            </div>
+                </div>
+            </section>
         </div>
     )
 }
