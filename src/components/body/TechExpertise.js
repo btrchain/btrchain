@@ -18,35 +18,35 @@ export default function TechExpertise() {
             <Container>
                 <p className='h2 text-center py-1'>Our Technology Expertise</p>
                 <Row className='justify-content-center'>
-                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5'>
-                        <Image src={Reactlogo} className='Tech-img' rounded />
+                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
+                        <Image src={Reactlogo} className='Tech-img' />
                     </Col>
-                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5'>
-                        <Image src={Nodelogo} className='Tech-img' rounded />
+                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
+                        <Image src={Nodelogo} className='Tech-img' />
                     </Col>
-                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5'>
-                        <Image src={Firebaselogo} className='Tech-img' rounded />
+                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
+                        <Image src={Firebaselogo} className='Tech-img' />
                     </Col>
-                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5'>
-                        <Image src={Express} className='Tech-img' rounded />
+                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
+                        <Image src={Express} className='Tech-img' />
                     </Col>
-                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5'>
-                        <Image src={Awslogo} className='Tech-img' rounded />
+                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
+                        <Image src={Awslogo} className='Tech-img' />
                     </Col>
-                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5'>
-                        <Image src={Docker} className='Tech-img' rounded />
+                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
+                        <Image src={Docker} className='Tech-img' />
                     </Col>
-                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5'>
-                        <Image src={Mongo} className='Tech-img' rounded />
+                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
+                        <Image src={Mongo} className='Tech-img' />
                     </Col>
-                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5'>
-                        <Image src={PHP} className='Tech-img' rounded />
+                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
+                        <Image src={PHP} className='Tech-img' />
                     </Col>
-                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5'>
-                        <Image src={Laravel} className='Tech-img' rounded />
+                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
+                        <Image src={Laravel} className='Tech-img' />
                     </Col>
-                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5'>
-                        <Image src={Wordpress} className='Tech-img' rounded />
+                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
+                        <Image src={Wordpress} className='Tech-img' />
                     </Col>
                 </Row>
             </Container>
