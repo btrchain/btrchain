@@ -10,6 +10,7 @@ import Mongo from './images/mongodb-icon.svg'
 import Express from './images/expressjs-ar21.svg'
 import Laravel from './images/laravel-2.svg'
 import Wordpress from './images/wordpress-seeklogo.com.svg'
+import Devops from './images/Devops-toolchain.svg'
 import './TechExpertise.css'
 
 export default function TechExpertise() {
@@ -20,6 +21,9 @@ export default function TechExpertise() {
                 <Row className='justify-content-center'>
                     <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
                         <Image src={Reactlogo} className='Tech-img' />
+                    </Col>
+                    <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
+                        <Image src={Devops} className='Tech-img' />
                     </Col>
                     <Col className='col-6 col-sm-4 col-lg-3 col-xl-2 pt-5 text-center'>
                         <Image src={Nodelogo} className='Tech-img' />
