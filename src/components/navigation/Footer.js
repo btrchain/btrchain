@@ -118,7 +118,7 @@ export default function Footer() {
                         </a>
                     </p>
                     <ul className="list-unstyled list-inline pb-5 text-center">
-                        <li className="list-inline-item">
+                        <li className="list-inline-item ">
                             <a
 
                                 className="btn-floating btn-sm rgba-white-slight mx-1 ext2 h6"
