@@ -2,6 +2,7 @@ import React from 'react'
 import backendImg from './images/backend.svg'
 import frontendImg from './images/frontend.svg'
 import devOpsImg from './images/devops.svg'
+import mobile from './images/ddArtboard 1mobiloe app.svg'
 import './WhatWeDo.css'
 import { Container } from 'react-bootstrap'
 
@@ -30,7 +31,7 @@ export default function WhatWeDo() {
                         </div>
                         <div className="col-md-6 col-lg-3">
                             <div className="card what-we-do-card" style={{ "background-image": "url('images/redline.svg')" }}>
-                                <img className="card-img-top" src={devOpsImg} alt="what we do" />
+                                <img className="card-img-top" src={mobile} alt="what we do" />
                                 <div className="card-body text-center">
                                     <p className="h3 py-2">Mobile App Devlopment</p>
                                 </div>
