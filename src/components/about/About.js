@@ -6,7 +6,7 @@ import './About.css'
 
 export default function About() {
     return (
-        <div>
+        <div className='container-fluid'>
             <div className="i-container">
                 <h2 className='text-center py-4'>About Us</h2>
                 <p>BTRChain puts together a bunch of passionate minds to transform your visions into reality imparting an awesome digital experience for your users. From website design, development, scalable mobile apps to Devops platforms, the solution we engineer accelerate efficiency and fuel growth for our clients.</p>
