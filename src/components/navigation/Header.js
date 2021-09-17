@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import logo from "./btrlogo1.png";
+import logo from "./logo.svg";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";

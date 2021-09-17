@@ -12,7 +12,7 @@ export default function Banner() {
                         </div>
                         <div className="col-lg-6">
                             <h1 className="mt-3">Build Test & Release Chain</h1>
-                            <p className="lead text-secondary my-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                            <p className="lead text-secondary my-5">BTRchain operates exclusively in web application development and cloud native solutions.we specialize in a range of technology to take a scratch project to a full product development.</p>
                             <a href="/contact" className="btn btn-outline-secondary btn-lg border">Hire us</a>
                         </div>
                     </div>
