@@ -10,7 +10,7 @@ export default function Footer() {
                     <Row className="text-left text-md-left mt-3 pb-3">
                         <Col md="3" lg="3" xl="3" className="mx-auto mt-3">
                             <h6 className="text-uppercase mb-4 font-weight-bold">BTR Chain</h6>
-                            <p className='font-weight-bolder'>
+                            <p className="ext2 h6 " >
                                 BTRchain works with the latest technologies and providing the best solution for clients in the field of frontend backend mobile devleopment and devops.
                             </p>
                         </Col>
@@ -19,7 +19,7 @@ export default function Footer() {
                             <h6 className="text-uppercase mb-4 font-weight-bold">
                                 Services
                             </h6>
-                            <p className="ext2 h6 text-left" > Web Development </p>
+                            <p className="ext2 h6" > Web Development </p>
                             <p className="ext2 h6"> Mobile Apps</p>
                             <p className="ext2 h6" >Payment Integration</p>
                             <p className="ext2 h6" >Hosting Solution</p>
