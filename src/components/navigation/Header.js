@@ -1,19 +1,19 @@
 import React from "react";
 import "./Header.css";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="md" variant='light' className='headerbg'>
+    <Navbar collapseOnSelect expand="md" variant='light' className='headerbg' >
       <Container>
         <Navbar.Brand href="/">
           <img
             alt="BTR Logo"
             src={logo}
-            width="200"
+            width="175"
             height="75"
             className="d-inline-block align-top logobg"
           />
