@@ -8,8 +8,7 @@ export default function TalkToUs() {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-8">
-                            <h2>What is Lorem Ipsum and why do we use it?</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p>Thank you for your interest in BTRChain and our services. Please fill out the form below or e-mail us at contact@btrchain.com and we will get back to you promptly regarding your request.</p>
                         </div>
                         <div className="col-md-8">
                             <ul className="nav nav-tabs" role="tablist">
@@ -25,11 +24,11 @@ export default function TalkToUs() {
                                             <div className="form-row row">
                                                 <div className="col-md-6 mb-3">
                                                     <label>Your Name</label>
-                                                    <input type="type" className="form-control" placeholder="Name" value="" required />
+                                                    <input type="text" className="form-control" placeholder="Name"  required />
                                                 </div>
                                                 <div className="col-md-6 mb-3">
                                                     <label>Your Email Id</label>
-                                                    <input type="email" className="form-control" placeholder="Email Id" value="" required />
+                                                    <input type="email" className="form-control" placeholder="Email Id"  required />
                                                 </div>
                                             </div>
                                             <div className="form-row row">
