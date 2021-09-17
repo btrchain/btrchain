@@ -19,7 +19,7 @@ export default function About() {
                                 <h2 className='py-4'>Who we are </h2>
                                 <div>
                                     <p>
-                                        BTRchain is not an entity, it’s a family that represents togetherness for over two decades of a successful journey. For IndiaNICians, the definition of success is to transcend innovative ideas of people to reality with the help of our tech expertise, this is what we, as a Team, want to be remembered for!.
+                                        BTRchain is not an entity, it’s a family that represents togetherness. For us, the definition of success is to transcend innovative ideas of people to reality with the help of our tech expertise, this is what we, as a Team, want to be remembered for!.
                                         <br></br>
                                         <br></br>
                                         Our vision has led BTRChain to become a top IT company in India for delivering various industry-led mobility solutions. The goal is to empower clients and businesses by creating new possibilities leveraging the technologies of today and tomorrow with the utmost quality, satisfaction, and transparency.
@@ -35,10 +35,10 @@ export default function About() {
                             <h2 className='py-4'>What we do </h2>
                             <div>
                                 <p>
-                                    Our enthusiasm has led us to become a top IT company in India for delivering various industry-led mobility solutions in web and mobile application development domains leveraging futuristic technologies like DevOps & Cloud computing, etc.
+                                    Our enthusiasm has led us to become a top IT company in India for delivering various industry-led mobility solutions in web and mobile application development domains leveraging futuristic technologies like DevOps & Cloud computing.
                                     <br></br>
                                     <br></br>
-                                    We feel empowered with our certified tech experts and our R&D team who have always challenged themselves to help global clientele with a plethora of IT services and solutions. Engagement with our team guarantees our clients to save huge money on project development with faster delivery.
+                                    We feel empowered with our certified tech experts team who have always challenged themselves to help global clientele with a plethora of IT services and solutions. Engagement with our team guarantees our clients to save huge money on project development with faster delivery.
                                 </p>
                             </div>
                         </div>
