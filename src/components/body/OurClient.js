@@ -13,6 +13,12 @@ export default function OurClient() {
           <Col className="col-6 col-sm-4 col-lg-3 col-xl-2">
             <Image src="./images/blogocean.png" rounded fluid />
           </Col>
+          <Col className="col-6 col-sm-4 col-lg-3 col-xl-2">
+            <Image src="./images/nityamukt.png" rounded fluid />
+          </Col>
+          <Col className="col-6 col-sm-4 col-lg-3 col-xl-2">
+            <Image src="./images/kushinagar.png" rounded fluid />
+          </Col>
         </Row>
       </Container>
     </div>
