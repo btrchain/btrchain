@@ -8,7 +8,7 @@ export default function Banner() {
                 <div className="container">
                     <div className="row row align-items-center">
                         <div className="col-lg-5 offset-lg-1 order-lg-1">
-                            <img src="./images/web-development-vector.png" className="img-fluid" alt="Web Development"></img>
+                            <img src="./images/banner btrchain.svg" className="img-fluid" alt="Web Development"></img>
                         </div>
                         <div className="col-lg-6">
                             <h1 className="mt-3">Build Test & Release Chain</h1>
