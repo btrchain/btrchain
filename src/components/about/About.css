@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 .l-container{
     background-position: -55%;
     background-size: 50%;
@@ -5,8 +7,8 @@
     background-blend-mode:color;
 }
 .i-container{
-    padding: 5rem 0px;
-    max-width: 40rem;
+    padding: 2rem 0px;
+    max-width: 80%;
     margin: auto auto;
     
 }
@@ -32,4 +34,7 @@
     max-width: 10em;
     max-height: 8em;
     mix-blend-mode: luminosity;
+}
+.font-head{
+    font-family: 'Abril Fatface', cursive;
 }
