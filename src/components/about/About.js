@@ -12,7 +12,7 @@ export default function About() {
                 <p>BTRChain puts together a bunch of passionate minds to transform your visions into reality imparting an awesome digital experience for your users. From website design, development, scalable mobile apps to Devops platforms, the solution we engineer accelerate efficiency and fuel growth for our clients.</p>
             </div>
             <Row>
-                <Col>
+                <Col md="6">
                     <div className="l-container">
                         <Container >
                             <div className="i-container">
@@ -29,7 +29,7 @@ export default function About() {
                         </Container>
                     </div>
                 </Col>
-                <Col>
+                <Col md="6">
                     <div className="l-container">
                         <div className=" i-container">
                             <h2 className='py-4'>What we do </h2>
