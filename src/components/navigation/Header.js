@@ -22,19 +22,19 @@ const Header = () => {
 
         <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
           <Nav className="mr-auto">
-            <Nav.Link as={Link} to="/" className="h5 ext3" eventKey="2">
+            <Nav.Link as={Link} to="/" className="h5 ext3 code" eventKey="2">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/about" className="h5 ext3" eventKey="2">
+            <Nav.Link as={Link} to="/about" className="h5 ext3 code" eventKey="2">
               About us
             </Nav.Link>
-            <Nav.Link as={Link} to="/" className="h5 ext3" eventKey="2">
+            <Nav.Link as={Link} to="/services" className="h5 ext3 code" eventKey="2">
               Our Services
             </Nav.Link>
-            <Nav.Link as={Link} to="/" className="h5 ext3" eventKey="2">
+            <Nav.Link as={Link} to="/" className="h5 ext3 code" eventKey="2">
               Blog
             </Nav.Link>
-            <Nav.Link as={Link} to="/contact" className="h5 ext3" eventKey="2">
+            <Nav.Link as={Link} to="/contact" className="h5 ext3 code" eventKey="2">
               Contact Us
             </Nav.Link>
           </Nav>
