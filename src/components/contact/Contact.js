@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Container, Row, Form, Button } from 'react-bootstrap'
 import './Contact.css'
+import { FaLocationArrow } from "react-icons/fa";
 import { MdEmail, MdPhone } from "react-icons/md";
 
 
@@ -21,11 +22,11 @@ export default function Contact() {
                                 Kasna, Gautam Buddha University,<br></br>
                                 Greater Noida, UP 201312.</p>
                             <br></br>
+                            <a href="/" className='text-decoration-none'> <p> <FaLocationArrow /> Location on google map</p></a>
                             <p className="h5">Email us</p>
                             <a href="mailto:contact@btrchain.com" className='text-decoration-none'><p><MdEmail /> contact@btrchain.com</p></a>
                             <p className='h5'>Quick Call</p>
-                            <a href="tel:+91-8171666986" className='text-decoration-none'><p ><MdPhone /> +91-8171666986</p></a>
-                            <a href="tel:+91-8210646956" className='text-decoration-none'><p><MdPhone /> +91-8210646956</p></a>
+                            <a href="tel:+91-9876543210" className='text-decoration-none'><p ><MdPhone /> +91-9876543210</p></a>
                         </div>
 
                     </Col>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { AiFillInstagram, AiFillTwitterSquare, AiFillGoogleCircle, AiFillLinkedin } from "react-icons/ai";
+import { AiFillInstagram, AiFillTwitterSquare, AiFillGoogleCircle,AiFillLinkedin } from "react-icons/ai";
 import './Footer.css'
 export default function Footer() {
     return (
@@ -10,8 +10,8 @@ export default function Footer() {
                     <Row className="text-left text-md-left mt-3 pb-3">
                         <Col md="3" lg="3" xl="3" className="mx-auto mt-3">
                             <h6 className="text-uppercase mb-4 font-weight-bold">BTR Chain</h6>
-                            <p className="ext2 h6 " >
-                                BTRchain works with the latest technologies and providing the best solution for clients in the field of frontend backend mobile devleopment and devops.
+                            <p className='font-weight-bolder'>
+                            BTRchain works with the latest technologies and providing the best solution for clients in the field of frontend backend mobile devleopment and devops.
                             </p>
                         </Col>
                         <hr className="w-100 clearfix d-md-none" />
@@ -19,25 +19,94 @@ export default function Footer() {
                             <h6 className="text-uppercase mb-4 font-weight-bold">
                                 Services
                             </h6>
-                            <p className="ext2 h6" > Web Development </p>
-                            <p className="ext2 h6"> Mobile Apps</p>
-                            <p className="ext2 h6" >Payment Integration</p>
-                            <p className="ext2 h6" >Hosting Solution</p>
+                            <p>
+                                <a
+                                    className="ext2 h6 text-left"
+                                    href="/"
+                                >
+                                    Web Development
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    className="ext2 h6"
+                                    href="/"
+                                >
+                                    UX Design
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    className="ext2 h6"
+                                    href="/"
+                                >
+                                    Mobile Apps
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    className="ext2 h6"
+                                    href="/"
+                                >
+                                    Digital Marketing
+                                </a>
+                            </p>
                         </Col>
                         <hr className="w-100 clearfix d-md-none" />
                         <Col md="3" lg="2" xl="2" className="mx-auto mt-3">
                             <h6 className="text-uppercase mb-4 font-weight-bold">Resources</h6>
-                            <p className="ext2 h6"> Blog </p>
-                            <p className="ext2 h6">Case Studies </p>
+                            <p>
+                                <a
+                                    className="ext2 h6"
+                                    href="/">
+                                    Blog
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    className="ext2 h6"
+                                    href="/">
+                                    Case Studies
+                                </a>
+                            </p>
                         </Col>
                         <hr className="w-100 clearfix d-md-none" />
                         <Col md="4" lg="3" xl="3" className="mx-auto mt-3">
                             <h6 className="text-uppercase mb-4 font-weight-bold">Capabilities</h6>
-                            <p className="ext2 h6">Front-end Engineering </p>
-                            <p className="ext2 h6">Cloud and DevOps</p>
-                            <p className="ext2 h6"> Web Framework </p>
-                            <p className="ext2 h6"> Database</p>
-                            <p className="ext2 h6">Machine Learning</p>
+                            <p>
+                                <a
+                                    className="ext2 h6"
+                                    href="/">
+                                    Front-end Engineering
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    className="ext2 h6"
+                                    href="/">
+                                    Cloud and DevOps
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    className="ext2 h6"
+                                    href="http://mail.btrchain.com/"
+                                >
+                                    Web Framework
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    className="ext2 h6" href="/" >
+                                    Database
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    className="ext2 h6" href="/" >
+                                    Machine Learning
+                                </a>
+                            </p>
                         </Col>
                     </Row>
                     <hr />
