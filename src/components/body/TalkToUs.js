@@ -14,7 +14,7 @@ export default function TalkToUs() {
 const submit= async(e)=>{
     e.preventDefault()
  try {
-    if (name && email && mobile && choseOption && text) {
+    if (name && email && /^\d{10}$/.test(mobile) && choseOption && text) {
       const res = await instance.post('/contactus',{name,email,mobile,choseOption,text})
       window.alert(res.data?.message)
     } else {
