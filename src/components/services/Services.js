@@ -47,7 +47,7 @@ export default function Services() {
         {
             id:9,
             name:'Support & Maintenance',
-            src:'https://www.spec-india.com/wp-content/uploads/2020/05/50_24-7_support_maintenance.svg'
+            src:'/serviceImage/50_24-7_support_maintenance.svg'
         }
     ];
     return (
@@ -58,7 +58,7 @@ export default function Services() {
                     {Services.map(service => (
                     <Col key={service.id} className="col-6 col-sm-4 col-lg-3 col-xl-3 pt-2">
                         <Card>
-                            <Image src={service.src} className='w-50 m-auto' rounded fluid />
+                            <Image src={service.src} className='w-50 m-auto' rounded fluid alt={service.name} />
                             <p className='text-center h5'>{service.name}</p>
                         </Card>
                     </Col>
