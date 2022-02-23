@@ -6,42 +6,42 @@ export default function Services() {
         {
             id: 1,
             name: 'MEAN Stack Development',
-            src:'https://www.spec-india.com/wp-content/uploads/2020/05/17_mean_stack_developer.svg'
+            src:'/serviceImage/17_mean_stack_developer.svg'
         },
         {
             id: 2,
             name: 'React Native Development',
-            src:'https://www.spec-india.com/wp-content/uploads/2020/05/21_react_native_developer.svg'
+            src:'/serviceImage/21_react_native_developer.svg'
         },
         {
             id: 3,
             name: 'Software/Web Development',
-            src:'https://www.spec-india.com/wp-content/uploads/2020/05/23_software_web_developer.svg'
+            src:'/serviceImage/23_software_web_developer.svg'
         },
         {
             id: 4,
             name: 'Full Stack',
-            src:'https://www.spec-india.com/wp-content/uploads/2020/05/30_full_stake.svg'
+            src:'/serviceImage/30_full_stake.svg'
         },
         {
             id: 5,
             name: 'DevOps',
-            src:'https://www.spec-india.com/wp-content/uploads/2020/05/32_devops.svg'
+            src:'/serviceImage/32_devops.svg'
         },
         {
             id: 6,
             name: 'AWS',
-            src:'https://www.spec-india.com/wp-content/uploads/2020/05/41_amazon_web_services.svg'
+            src:'/serviceImage/41_amazon_web_services.svg'
         },
         {
             id:7,
             name:'Cloud Deployment',
-            src:'https://www.spec-india.com/wp-content/uploads/2020/05/42_cloud_deployment.svg'
+            src:'/serviceImage/42_cloud_deployment.svg'
         },
         {
             id:8,
             name:'eCommerce Development',
-            src:'https://www.spec-india.com/wp-content/uploads/2020/05/47_ecommerce.svg'
+            src:'/serviceImage/47_ecommerce.svg'
         }
         ,
         {
