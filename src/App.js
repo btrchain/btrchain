@@ -1,4 +1,5 @@
 import React, { createContext, lazy, Suspense } from "react";
+// import "./App.css";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/navigation/Header";
