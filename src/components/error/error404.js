@@ -6,9 +6,9 @@ export default function error404() {
         <div>
             <div className="not-found">
                 <h2><span>404</span><br></br>Page not found</h2>
-                <h3>Oops, sorry we can’t find that page!!</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br>
-                    Lorem Ipsum has been the industry’s standard dummy text.</p>
+                <h3>We are really sorry, but the page you requested can not be found.</h3>
+                {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br>
+                    Lorem Ipsum has been the industry’s standard dummy text.</p> */}
                 <div className="go-on">
                     <a href="/">Visit Homepage</a>
                     <a href="/contact">Contact Us</a>
