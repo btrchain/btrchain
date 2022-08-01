@@ -11,6 +11,8 @@ const About = lazy(() => import("./components/about/About"));
 const Contact = lazy(() => import("./components/contact/Contact"));
 const Team = lazy(() => import("./components/body/Team"));
 const Services = lazy(() => import("./components/services/Services"));
+const MeanStack = lazy(() => import("./components/services/MeanStack"));
+
 
 export const shareContext = createContext();
 
@@ -32,6 +34,7 @@ function App() {
             <Route  path="/contact" component={Contact} />
             <Route  path="/team" component={Team} />
             <Route  path="/services" component={Services} />
+            <Route  path="/mean" component={MeanStack} />
             {/* <Route exact path="/sitemap" component={Sitemap} /> */}
             <Route component={Error404} />
           </Switch>
