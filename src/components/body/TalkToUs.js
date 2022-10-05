@@ -13,12 +13,13 @@ export default function TalkToUs() {
 
 const submit= async(e)=>{
     e.preventDefault()
+    console.log(name,email,choseOption,text);
  try {
     if (name && email && /^\d{10}$/.test(mobile) && choseOption && text) {
       const res = await instance.post('/contactus',{name,email,mobile,choseOption,text})
       window.alert(res.data?.message)
     } else {
-         window.alert('Please all details')
+         window.alert('Please fill all details')
     }
    
  } catch (error) {
