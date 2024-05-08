@@ -22,22 +22,22 @@ export default function Contact() {
               <br></br>
               <p className="h5">Email us</p>
               <a
-                href="mailto:contact@btrchain.com"
+                href="mailto:btrchain@gmail.com"
                 className="text-decoration-none"
               >
                 <p>
-                  <MdEmail /> contact@btrchain.com
+                  <MdEmail /> btrchain@gmail.com
                 </p>
               </a>
               <p className="h5">Quick Call</p>
-              <a href="tel:+91-8171666986" className="text-decoration-none">
+              // <a href="tel:+91-8171666986" className="text-decoration-none">
+              //   <p>
+              //     <MdPhone /> +91-8171666986
+              //   </p>
+              // </a>
+              <a href="tel:+91-7037908029" className="text-decoration-none">
                 <p>
-                  <MdPhone /> +91-8171666986
-                </p>
-              </a>
-              <a href="tel:+91-8210646956" className="text-decoration-none">
-                <p>
-                  <MdPhone /> +91-8210646956
+                  <MdPhone /> +91-7037908029
                 </p>
               </a>
             </div>
