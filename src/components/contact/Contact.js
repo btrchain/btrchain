@@ -15,9 +15,9 @@ export default function Contact() {
             <div className="m-auto justify-content-center">
               <p className="h3">Our Address</p>
               <p>
-                01, University Road, <br></br>
-                Kasna, Gautam Buddha University,<br></br>
-                Greater Noida, UP 201312.
+                11, H.No 95, Saidulajab, <br></br>
+                Saket PO Mehrauli,<br></br>
+                New Delhi 110030.
               </p>
               <br></br>
               <p className="h5">Email us</p>
@@ -30,11 +30,7 @@ export default function Contact() {
                 </p>
               </a>
               <p className="h5">Quick Call</p>
-              // <a href="tel:+91-8171666986" className="text-decoration-none">
-              //   <p>
-              //     <MdPhone /> +91-8171666986
-              //   </p>
-              // </a>
+             
               <a href="tel:+91-7037908029" className="text-decoration-none">
                 <p>
                   <MdPhone /> +91-7037908029
