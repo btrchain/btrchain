@@ -1,18 +1,17 @@
 import React, { createContext, lazy, Suspense } from "react";
-// import "./App.css";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/navigation/Header";
 import Footer from "./components/navigation/Footer";
 import Spinner from "./components/body/Spinner";
 import Error404 from "./components/error/error404";
+
 const Home = lazy(() => import("./components/Index"));
 const About = lazy(() => import("./components/about/About"));
 const Contact = lazy(() => import("./components/contact/Contact"));
 const Team = lazy(() => import("./components/body/Team"));
 const Services = lazy(() => import("./components/services/Services"));
 const MeanStack = lazy(() => import("./components/services/MeanStack"));
-
 
 export const shareContext = createContext();
 
@@ -28,19 +27,17 @@ function App() {
             </div>
           }
         >
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route  path="/about" component={About} />
-            <Route  path="/contact" component={Contact} />
-            <Route  path="/team" component={Team} />
-            <Route  path="/services" component={Services} />
-            <Route  path="/mean" component={MeanStack} />
-            {/* <Route exact path="/sitemap" component={Sitemap} /> */}
-            <Route component={Error404} />
-          </Switch>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/mean" element={<MeanStack />} />
+            <Route path="*" element={<Error404 />} />
+          </Routes>
         </Suspense>
         <Footer />
-        
       </Router>
     </shareContext.Provider>
   );
