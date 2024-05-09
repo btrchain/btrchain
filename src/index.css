@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,400&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 body {
   margin: 0;
-  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Comfortaa', cursive; */
+  font-family: "Teachers", sans-serif;
+  font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
